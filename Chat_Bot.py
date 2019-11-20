@@ -1,17 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 import nltk
 nltk.download()
 
-
-# In[1]:
-
-
-import nltk
+# import nltk
 import numpy as np
 import random
 import string # to process standard python strings
@@ -33,13 +24,10 @@ word_tokens = nltk.word_tokenize(raw) # converts to list of words
 sent_tokens[:2]
 
 
-# In[2]:
 
 
 word_tokens[:2]
 
-
-# In[ ]:
 
 
 # WordNet is a semantically-oriented dictionary of English included in NLTK.
@@ -117,14 +105,6 @@ while(flag == True):
         print("Robo: Bye! take care..")
                 
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
